@@ -9,9 +9,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import PrivateRoute from './privateRoute';
-import Login from './pages/Login/Login';
 import {store} from './redux/store'
 import { Provider } from 'react-redux'
+import Register from './pages/Register/Register';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,7 +19,7 @@ const router = createBrowserRouter(
       <Route path='' element = {<PrivateRoute />}>
         <Route path="/" element={<Main />} />
       </Route>
-      <Route path='/login' element={<Login />} />
+      <Route path='/register' element={<Register />} />
     </Route>
   )
 );

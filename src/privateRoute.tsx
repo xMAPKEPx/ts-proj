@@ -7,7 +7,7 @@ const PrivateRoute: FC = () => {
   if (isAuth) {
      return <Outlet/>
   } else {
-    return <Navigate to="/login"/>;
+    return <Navigate to="/register"/>;
   }
 };
   
