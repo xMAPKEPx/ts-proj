@@ -1,0 +1,23 @@
+.paginator {
+    position: relative;
+    display: flex;
+    gap: 0 19px;
+    margin: 0 44.01% 0 auto;
+    width: 190px;
+    max-width: 85%;
+}
+.navigation {
+    position: relative;
+    font: 400 32px/1.2 "Georgia", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+}
+
+.arrow {
+    background: none;
+    border: none;
+    position: relative;
+    margin: 5px 0 1px;
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+}

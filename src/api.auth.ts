@@ -12,3 +12,7 @@ export const logout = () => {
 export const getListOfUsers = (page: number) => {
     return $api.get(`/users?page=${page}`)
 }
+
+export const changeUserInfo = (id:number) => {
+    return $api.patch(`users/${id}`)
+}

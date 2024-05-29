@@ -1,0 +1,169 @@
+.profileSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #425F96;
+}
+.flexRow {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+    margin: 25px auto;
+    width: 89.06%;
+    max-width: 1709.9375px;
+}
+.highlightProfile {
+    position: relative;
+    font: 400 18px/1.2 "Georgia", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+}
+.logoutButton {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-width: 120px;
+    font: 400 18px/1.2 "Georgia", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(232, 186, 68);
+    border-radius: 20px 20px 20px 20px;
+    padding: 9px 32px 9px 32px;
+}
+.profileSectionFlexCol {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px 0px;
+    margin: 199px auto 240px;
+    width: 1150px;
+    max-width: 85%;
+}
+.profileTitle {
+    position: relative;
+    width: 94.78%;
+    font: 300 32px/1.21 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+}
+.profileContentBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+}
+.profileFlexCol1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 95px 0px;
+    margin: 60px auto 24px;
+    width: 974.046875px;
+    max-width: 85%;
+}
+.profileFlexRow {
+    border: 1px solid black;
+    background-color: #425F96;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+}
+.profileFlexCol2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0px;
+    width: 350px;
+    min-width: 0px;
+}
+.profileFlexCol3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    outline: none;
+    width: 100%;
+    border: none;
+    position: relative;
+    margin: 16px 2px 0px;
+    font: 400 18px/1.22 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+}
+
+.inputLabel {
+    position: relative;
+    font: 300 18px/1.22 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+}
+
+.profileLine1 {
+    position: relative;
+    margin: 1px 0px 0px;
+    width: 100%;
+    height: 1px;
+    min-height: 1px;
+    background-color: rgb(143, 143, 143);
+}
+
+.profileFlexCol4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1px 0px;
+}
+
+.profilePasswordFlexRow {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    margin: 0px 2px;
+}
+
+.profilePasswordImage {
+    position: relative;
+    margin: 20px 0px 6px;
+    width: 17px;
+    height: 14px;
+    object-fit: cover;
+}
+
+.profileFlexCol5 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 6px 0px;
+    width: 300px;
+    min-width: 0px;
+}
+.profileImage {
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+}
+
+.profileEditButton {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto 38.5% auto auto;
+    width: 200px;
+    max-width: 100%;
+    font: 300 18px/1.22 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(232, 186, 68);
+    border-radius: 8px 8px 8px 8px;
+    padding: 6.5px 30px 6.5px 30px;
+}

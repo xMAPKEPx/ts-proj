@@ -1,0 +1,112 @@
+.registrationSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 157px auto;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px 3px 3px 3px;
+    filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.247));
+}
+.flex_col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 55px auto 57px;
+    width: 280px;
+}
+.title_box {
+    font: 700 32px/1.2 "Georgia", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+}
+.title_box_box {
+    position: relative;
+}
+.title_box_span0 {
+    font: 700 1em/1.2 "Georgia", Helvetica, Arial, serif;
+}
+.title_box_span1 {
+    font: 1em/1.2 "Georgia", Helvetica, Arial, serif;
+}
+.flex_col1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 44px 0px 0px;
+    width: 100%;
+}
+.lastNameLabel {
+    position: relative;
+    font: 400 18px/1.2 "Georgia", Helvetica, Arial, serif;
+    color: rgba(0, 0, 0, 0.658);
+}
+.inputField {
+    position: relative;
+    margin: 4px 0px 0px;
+    min-height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px 2px 2px 2px;
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+    outline-offset: -1px;
+}
+.firstNameLabel {
+    position: relative;
+    margin: 28px 0px 0px;
+    font: 400 18px/1.2 "Georgia", Helvetica, Arial, serif;
+    color: rgba(0, 0, 0, 0.658);
+}
+.emailLabel {
+    position: relative;
+    margin: 28px 0px 0px;
+    font: 400 18px/1.2 "Georgia", Helvetica, Arial, serif;
+    color: rgba(0, 0, 0, 0.658);
+}
+.passwordLabel {
+    position: relative;
+    margin: 28px 0px 0px;
+    font: 400 18px/1.2 "Georgia", Helvetica, Arial, serif;
+    color: rgba(0, 0, 0, 0.658);
+}
+.confirmPasswordLabel {
+    font: 400 18px/1.2 "Georgia", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+}
+.confirmPasswordLabel_box {
+    position: relative;
+    margin: 28px 0px 0px;
+}
+.confirmPasswordLabel_span0 {
+    font: 1em/1.2 "Georgia", Helvetica, Arial, serif;
+    color: rgba(0, 0, 0, 0.658);
+}
+.confirmPasswordLabel_span1 {
+    font: 1em/1.2 "Georgia", Helvetica, Arial, serif;
+}
+.photoLinkLabel {
+    position: relative;
+    margin: 28px 0px 0px;
+    font: 400 18px/1.2 "Georgia", Helvetica, Arial, serif;
+    color: rgba(0, 0, 0, 0.658);
+}
+.registerButton {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 45px 15px 0px;
+    width: 250px;
+    max-width: 100%;
+    font: 400 18px/1.2 "Georgia", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(232, 186, 68);
+    border-radius: 25px 25px 25px 25px;
+    padding: 14px 36px 14px 36px;
+}

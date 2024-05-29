@@ -1,6 +1,8 @@
 import React from 'react';
 
-import Styles from './paginator.module.css';
+import styles from './paginator.module.css';
+import next from '../../assets/next.png'
+import prev from '../../assets/prev.png'
 
 type PaginationProps = {
   onNextPageClick: () => void;
@@ -26,27 +28,25 @@ const Pagination = (props: PaginationProps) => {
   };
 
   return (
-    <div className={Styles.paginator}>
+    <div className={styles.paginator}>
       <button
-        className={Styles.arrow}
+        className={styles.arrow}
         type="button"
         onClick={handlePrevPageClick}
         disabled={disable.left}
       >
-        {'<'}
+        <img src={prev} alt="arrow" />
       </button>
       {nav && (
-        <span className={Styles.navigation} >
-          {nav.current} / {nav.total}
-        </span>
+        <span className={styles.navigation} > {nav.current} / {nav.total} </span>
       )}
       <button
-        className={Styles.arrow}
+        className={styles.arrow}
         type="button"
         onClick={handleNextPageClick}
         disabled={disable.right}
       >
-        {'>'}
+          <img src={next} alt="arrow" />
       </button>
     </div>
   );

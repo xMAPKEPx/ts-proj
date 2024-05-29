@@ -1,39 +1,124 @@
-.App {
-    text-align: center;
-  }
-  
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
+.profileSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #425F96;
+}
+.flexRow {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+  margin: 25px auto;
+  width: 89.06%;
+  max-width: 1709.9375px;
+}
+.contentBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  min-width: 0px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px 25px 25px 25px;
+}
+.flexRow1 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 11px 0px 9px 17px;
+  width: 110px;
+  max-width: 85%;
+}
+.searchImg {
+  position: relative;
+  width: 23px;
+  height: 30px;
+  aspect-ratio: 0.77;
+  object-fit: cover;
+}
+.highlightSearch {
+  border: none;
+  outline: none;
+  position: relative;
+  margin: 4px 0px;
+  font: 400 18px/1.2 "Georgia", Helvetica, Arial, serif;
+  color: rgba(0, 0, 0, 0.427);
+}
+.highlightProfile {
+  position: relative;
+  font: 400 18px/1.2 "Georgia", Helvetica, Arial, serif;
+  color: rgb(255, 255, 255);
+}
+.logoutButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-width: 120px;
+  font: 400 18px/1.2 "Georgia", Helvetica, Arial, serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: rgb(232, 186, 68);
+  border-radius: 20px 20px 20px 20px;
+  padding: 9px 32px 9px 32px;
+}
+.userListSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.layoutContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 146px 0px;
+  margin: 100px auto 119px;
+  width: 1620.09375px;
+  max-width: 85%;
+}
+.itemGrid {
+  position: relative;
+  display: grid;
+  align-content: start;
+  row-gap: 76px;
+  column-gap: 140px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.userItem {
+  border: 2px solid black;
+  border-radius: 35px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px 0;
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.userImage {
+  border-radius: 35px;
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+}
+.userInfo {
+  /*border: 1px solid #61dafb;*/
+  align-self: flex-start;
+  position: relative;
+  margin: auto;
+  width: 85%;
+  max-width: 85%;
+  font: 400 18px/1.2 "Georgia", Helvetica, Arial, serif;
+  color: rgb(0, 0, 0);
+}
+.highlightedUserInfo {
+  position: relative;
+  margin: 0px 0px 0px 16px;
+  width: 114px;
+  max-width: 85%;
+  font: 400 18px/1.2 "Georgia", Helvetica, Arial, serif;
+  color: rgb(0, 0, 0);
+  letter-spacing: -0.9px;
+}
